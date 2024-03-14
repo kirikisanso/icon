@@ -1,0 +1,135 @@
+@import url(https://db.onlinewebfonts.com/c/6b37047ea3c67ffa624faf752df4899b?family=Plumb+Medium);
+@import url("https://fonts.cdnfonts.com/css/circe");
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./images/bgc.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+h1,
+p {
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid white;
+  padding: 33px 0px 33px 0px;
+}
+
+.navigator ul {
+  display: flex;
+  list-style: none;
+}
+
+.navigator ul li {
+  margin-right: 40px;
+  font-family: Circe;
+  color: white;
+  transition: 2s;
+}
+
+.navigator ul li:hover {
+  color: aquamarine;
+  cursor: pointer;
+}
+
+.logo {
+  width: 175px;
+  height: 24px;
+  margin-left: 180px;
+}
+.first-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  width: 100%;
+}
+.width-container {
+  display: flex;
+  gap: 30px;
+  width: 1100px;
+}
+.first-section-title > h1 {
+  font-family: "Plumb Medium";
+  font-size: 60px;
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+  margin-top: -90px;
+  margin-bottom: 40px;
+}
+
+.block-times {
+  width: 535px;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.screen {
+  margin: 200px;
+  gap: 10px;
+  width: 400px;
+  margin-left: 750px;
+}
+
+.block-two {
+  width: 255px;
+  height: 140px;
+  background-color: #2378fc;
+  font-size: 21px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.block-three {
+  width: 255px;
+  height: 140px;
+  font-size: 16px;
+  background-color: #30bcc9;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.block-four {
+  width: 255px;
+  height: 140px;
+  font-size: 16px;
+  background-color: #ffc41e;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.block-five {
+  width: 255px;
+  height: 140px;
+  font-size: 16px;
+  background-color: #f6404f;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.block-times {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-top: -40px;
+}
+
+.con {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.ico {
+  color: white;
+  font-size: 20px;
+  
+}
+
+.section2 {
+  width: auto;
+  height: 200px;
+}
